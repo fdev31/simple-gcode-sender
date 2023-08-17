@@ -79,7 +79,7 @@ def gcode_iterator(fobj):
 
 def main():
     if len(sys.argv) != 3:
-        print("Usage: python script.py <gcode_filename> <serial_device>")
+        print(f"Usage: python {sys.argv[0]} <gcode_filename> <serial_device>")
         return
 
     gcode_filename = sys.argv[1]
