@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "sgs"
+name = "simple-gcode-sender"
 version = "1.0.0"
 description = "A simple gcode sender"
 authors = ["fdev31 <fdev31@gmail.com>"]
