@@ -7,7 +7,7 @@ Features:
 - easy to tune to your device (one simple & clean Python file)
 - works well on a raspberry pi (tested with "old" Python versions)
 
-Usage: `./sgs.py <gcode_filename> <serial_device>`
+Usage: `sgs <gcode_filename> <serial_device>`
 
 Note: if you see any output, it means there are errors occurring, try tweaking those two values:
 
