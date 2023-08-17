@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sgs"
+version = "1.0.0"
+description = "A simple gcode sender"
+authors = ["fdev31 <fdev31@gmail.com>"]
+license = "GPL"
+readme = "README.md"
+
+[tool.poetry.scripts]
+sgs = 'sgs:main'
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+pyserial = "^3.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
