@@ -1,4 +1,4 @@
-#!./venv/bin/python
+#!/bin/env python
 import sys
 import serial
 from itertools import count
